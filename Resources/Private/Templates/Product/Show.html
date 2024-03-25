@@ -8,12 +8,6 @@
 <f:section name="main">
     <cartproducts:canonicalTag product="{product}" />
 
-    <cart:format.nothing>
-        <cart:titleTag>
-            <f:format.htmlentitiesDecode>{product.title}</f:format.htmlentitiesDecode>
-        </cart:titleTag>
-    </cart:format.nothing>
-
     <h1>{product.title}</h1>
 
     <f:if condition="{product.images}">
